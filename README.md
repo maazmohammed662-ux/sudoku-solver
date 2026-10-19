@@ -7,15 +7,15 @@ Walks the board cell by cell. For each empty cell, tries digits 1-9, checking th
 
 ## Run it
 
-javac sudoku.java
-java sudoku
+```javac sudoku.java
+java sudoku```
 
 
 ## Example output
 
 **Input (unsolved board):**
 
-53..7....
+```53..7....
 6..195...
 .98....6.
 8...6...3
@@ -23,12 +23,12 @@ java sudoku
 7...2...6
 .6....28.
 ...419..5
-....8..79
+....8..79```
 
 
 **Output (solved board):**
 
-534678912
+```534678912
 672195348
 198342567
 859761423
@@ -36,4 +36,4 @@ java sudoku
 713924856
 961537284
 287419635
-345286179
+345286179```
